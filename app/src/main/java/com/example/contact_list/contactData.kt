@@ -1,8 +1,10 @@
 package com.example.contact_list
 
-data class contactData(
-    var name:String,
-    var email:String,
-    var age:Int,
-    var phoneNumber:String
+
+
+data class ContactData(
+    val avatar:String,
+    val name:String,
+    val email:String,
+    val number:String
 )
